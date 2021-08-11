@@ -1,0 +1,122 @@
+body{
+    background: #E5E5E5 ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gentium Book Basic';   
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    font-weight: bold;
+    ul{
+        li{
+            list-style-type: none;
+            display: inline-block;
+            font-size: 25px;
+            padding: 20px 50px;
+            margin-right: 70px;
+        }
+    }
+}
+
+.logo{
+    font-size: 50px;
+    padding: 10px 30px;
+    margin-left: 40px; 
+}
+
+#login-button{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.judul {
+    text-align: center;
+    padding: 2em;
+}
+.section{
+    align-items: center;
+    text-align: left;
+    background: white;
+    padding: auto auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 10px 15px 10px black;
+
+    .signup {
+        align-items: center;
+        padding: 1em 4em;
+        .label{
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+        .input{
+            border-radius: 3px;
+            width: 60%;
+            font-size: larger;
+        }
+        .buttons {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            .daftar {
+                align-items: center;
+                background: black;
+                color: white;
+                border-radius: 5px;
+                font-size: 1.5em;
+                width: 40%;
+                margin: 2em 1em 0 0;
+                padding: 0.3em 0;
+            }
+            .batalkan{
+                background: white;
+                color: black;
+                border-radius: 5px;
+                font-size: 1.5em;
+                width: 40%;
+                margin: 2em 0;
+                padding: 0.3em 0;
+            }
+        }
+    }
+}
+
+
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+footer ul li{
+    list-style-type: none;
+    font-size: 25px;
+    padding: 0px 50px;
+    margin-right: 70px;
+}
