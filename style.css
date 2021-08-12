@@ -89,3 +89,50 @@ footer ul li{
     padding: 0px 50px;
     margin-right: 70px;
 }
+
+.gallery {
+    background: transparent;
+    margin-bottom: 3rem;
+  }
+  
+.gallery-cell {
+    width: 66%;
+    height: 23.5rem;
+    margin-right: 0px;
+    background:transparent;
+  }
+  
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 8rem;
+    font-size: 80px;
+    color: white;
+  }
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.topnews {
+    text-align: center;
+}
+
+.topnews h1 {
+    font-size: 2rem;
+}
+
+.topnews hr {
+    margin-top: 1rem;
+    border: black solid 2.5px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gentium+Book+Basic" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <body>
     <header>
@@ -24,6 +25,15 @@
             <p>Proyek ini bertujuan untuk meminimalisasi angka Korupsi berbasis swadaya.</p>
         </div>
     </main>
+    <div class="topnews">
+        <h1>Top News</h1>
+        <hr>
+    </div>
+    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <div class="gallery-cell fill"><img src="./assets/images/News_1.png" alt="Could be portrait or landscape"/></div>
+        <div class="gallery-cell fill"><img src="./assets/images/News_2.png" alt="Could be portrait or landscape"/></div>
+        <div class="gallery-cell fill"><img src="./assets/images/News_3.png" alt="Could be portrait or landscape"/></div>
+    </div>
     <footer>
         <div class="logo">BT.co</div>
         <ul class="media1">
@@ -35,5 +45,6 @@
             <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> bt.co</a></li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
