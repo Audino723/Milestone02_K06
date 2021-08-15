@@ -34,6 +34,10 @@ header ul li{
     margin-right: 70px;
 }
 
+header ul li a:hover{
+    text-decoration: underline;
+}
+
 #login-button{
     padding: 20px;
     background-color: black;
@@ -88,6 +92,12 @@ footer ul li{
     font-size: 25px;
     padding: 0px 50px;
     margin-right: 70px;
+}
+
+footer ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .gallery {
