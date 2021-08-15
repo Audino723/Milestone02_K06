@@ -23,6 +23,11 @@ header {
   top: 0;
   font-weight: bold;
 }
+header .logo {
+  font-size: 50px;
+  padding: 10px 30px;
+  margin-left: 40px;
+}
 header ul li {
   list-style-type: none;
   display: inline-block;
@@ -42,6 +47,7 @@ header ul li {
   background-color: black;
   color: white;
   border-radius: 10px;
+  margin: 0 10px;
 }
 
 .judul {
