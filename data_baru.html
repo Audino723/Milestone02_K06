@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BT.co</title>
+    <link rel="stylesheet" href="assets/css/data_baru.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gentium+Book+Basic" />
+</head>
+<body>
+    <header>
+        <a href="/index.html"><div class="logo">BT.co</div></a>
+        <ul>
+            <li><a href="/index.html">Beranda</a></li>
+            <li><a href="">Tentang Kami</a></li>
+            <li><a href="">Kontak</a></li>
+            <li id="login-button"><a href="">Masuk</a></li>
+        </ul>
+    </header>
+    <div class="judul">
+        <h1>DATA BARU</h1>
+    </div>
+    <div class="section">
+        <div class="adddata">
+            <h2 class="label">Jenis Data</h2>
+            
+            <select id="jenisdata" >
+                <option value=""></option>
+                <option value="Data Umum">Data Umum</option>
+                <option value="Sosial Budaya">Sosial Budaya</option>
+                <option value="Sumber Daya Alam">Sumber Daya Alam</option>
+                <option value="Infrastruktur">Infrastruktur</option>
+                <option value="Ekonomi">Ekonomi</option>
+            </select>
+            
+            <h2 class="label">Tanggal</h2>
+            <input type="date" id="birthday" name="birthday" class="input">   
+            <h2 class="label">Jumlah Pengeluaran/Pemasukan (Rp.)</h2>
+            <input type="number" id="total" name="TotalAnggaran" class="input">
+            <h2 class="label">Provinsi</h2>
+            <input type="text" id="prov" name="Provinsi" class="input">
+            <h2 class="label">Kota/Kabupaten</h2>
+            <input type="text" id="kab" name="Kota/Kabupaten" class="input">
+
+            <br>
+            <div class="buttons">
+                <button class="kirim">KIRIM</button> 
+                <button class="batalkan">BATALKAN</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="logo">BT.co</div>
+        <ul class="media1">
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> bt.co</a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i> @bt.co</a></li>
+        </ul>
+        <ul class="media2">
+            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i> bt.co</a></li>
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> bt.co</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

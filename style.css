@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gentium Book Basic';
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    position: sticky;
+    top: 0;
+    font-weight: bold;
+}
+
+.logo{
+    font-size: 50px;
+    padding: 10px 30px;
+    margin-left: 40px; 
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px 50px;
+    margin-right: 70px;
+}
+
+#login-button{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.jumbotron{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('assets/images/jumbotron.png');
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    margin:25px 70px;
+    padding: 80px 30px;
+    border-radius: 10px;
+    color: black;
+}
+
+.jumbotron h2{
+    font-size: 50px;
+    margin-bottom: 0;
+    margin: 0px auto 0px auto;
+}
+
+.jumbotron hr{
+    height: 5px;
+    border-width: 0;
+    color: black;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbotron p{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+
+footer ul li{
+    list-style-type: none;
+    font-size: 25px;
+    padding: 0px 50px;
+    margin-right: 70px;
+}
+
+.gallery {
+    background: transparent;
+    margin-bottom: 3rem;
+  }
+  
+.gallery-cell {
+    width: 66%;
+    height: 23.5rem;
+    margin-right: 0px;
+    background:transparent;
+  }
+  
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 8rem;
+    font-size: 80px;
+    color: white;
+  }
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.topnews {
+    text-align: center;
+}
+
+.topnews h1 {
+    font-size: 2rem;
+}
+
+.topnews hr {
+    margin-top: 1rem;
+    border: black solid 2.5px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.searchBar .card{
+    border: 5px solid black;
+    width: 742px;
+    height: 232px;
+    margin: 20px auto 20px auto;
+}
+
+.searchBar .card{
+    margin: 20px auto 15px auto;
+    border-radius: 20px;
+}
+
+.searchBar .container{
+    display: flex;
+    align-items: center;
+    padding: 60px 0 0 120px;
+}
+.searchBar .search img {
+    hegith: 40px !important;
+    width: 40px;
+}
+
+.searchBar form{
+    display: flex;
+}
+
+.searchBar input{
+    margin-right: 10px;
+}
+
+.searchBar button{
+    background-color: white;
+    border-width: 0ch;
+}
+
+.searchBar .inputBaru{
+    background-color: #000;
+    color: antiquewhite;
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.searchBar .buttonContainer{
+    padding: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+.searchBar ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+
+}
+
+.searchBar li{
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+.searchBar input{
+    height: 40px;
+    border-radius: 10px;
+    width: 220px;
+    border-width: 2px;
+}
+
+.searchBar .left{
+    margin-right: 25px;
+}
