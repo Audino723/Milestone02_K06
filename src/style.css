@@ -27,6 +27,9 @@ a{
     margin: 10px 10px 10px;
 }
 
+header ul li a:hover{
+    text-decoration: underline;
+}
 
 .jumbotron{
     background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('assets/images/jumbotron.png');
@@ -79,6 +82,12 @@ footer ul li{
     font-size: 25px;
     padding: 0px 50px;
     margin-right: 70px;
+}
+
+footer ul li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .gallery {
