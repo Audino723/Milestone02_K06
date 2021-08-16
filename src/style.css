@@ -285,43 +285,30 @@ input#menu-btn{
     margin-right: auto;
 }
 
-@media (min-width: 600px){
-    .header{
-        display: inline-flex;
-    }
-    li.menu-biasa{
-        display: inline-block;
-        margin-left: 20px;
-    }
-    #login-button{
-        display: inline-block;
-    }
-    ul.menu{
-        align-items: flex-end;
-        position: absolute;
-        right: 40px;
-        margin-top: 20px;
-    }
-    ul{
-        display: inline-block !important;
-    }
-    .fa-bars:before{
-        display: none;
-    }
-    .logo{
-        width: max-content;
-    }
+.header{
+    display: inline-flex;
+}
+li.menu-biasa{
+    display: inline-block;
+    margin-left: 20px;
+}
+#login-button{
+    display: inline-block;
+}
+ul.menu{
+    align-items: flex-end;
+    position: absolute;
+    right: 40px;
+    margin-top: 20px;
+}
+ul{
+    display: inline-block !important;
+}
+.fa-bars:before{
+    display: none;
+}
+.logo{
+    width: max-content;
 }
 
-@media (max-width: 600px){
-    .fa-bars:before{
-        display: block;
-    }
-    ul.menu{
-        display: none;
-    }
-    ul{
-        display: none!important;
-        float: none;
-    }
-}
+
