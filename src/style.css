@@ -75,6 +75,8 @@ footer{
     color: white;
     background-color: black;
     font-weight: bold;
+    position: relative;
+    bottom: 0;
 }
 
 footer ul li{
