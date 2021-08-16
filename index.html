@@ -6,16 +6,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Gentium+Book+Basic" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
     <header>
-        <div class="logo">BT.co</div>
-        <ul>
-            <li><a href="">Beranda</a></li>
-            <li><a href="">Tentang Kami</a></li>
-            <li><a href="">Kontak</a></li>
-            <li id="login-button"><a href="">Masuk</a></li>
-        </ul>
+        <div class="header">
+        <a href="index.html"><div class="logo">BT.co</div></a>
+                <div id="menu-navbar">
+                <input class="menu-btn" type="checkbox" name="" id="menu-btn">
+                <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li class="menu-biasa"><a href="index.html">Beranda</a></li>
+                    <li class="menu-biasa"><a href="tentangKami.html">Tentang Kami</a></li>
+                    <li class="menu-biasa"><a href="">Kontak</a></li>
+                    <li id="login-button"><a href="masuk.html">Masuk</a></li>
+                </ul>
+                </div>
+                
+                <a href="javascript:void(0);" class="icon-menu" onclick="showHamburger()">
+                    <i class="fa fa-bars"></i>
+                </a>
+        </div>
+       
     </header>
     <main>
         <div class="jumbotron">
@@ -25,15 +38,86 @@
             <p>Proyek ini bertujuan untuk meminimalisasi angka Korupsi berbasis swadaya.</p>
         </div>
     </main>
-    <div class="topnews">
+     <div class="searchBar">
+        <div class="card">
+            <div class="container">
+                <div class="left">
+                    <div class="search">
+                        <form action="AnggaranPendidikan.html">
+                            <input type="text" name="" id="search">
+                            <button type="submit">
+                               <img src="/assets/images/search.png" alt="" class="search">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="suggestion">
+                        <ul>
+                            <li>
+                                ANGGARAN PENDIDIKAN
+                            </li>
+                            <li>
+                                PENDIDIKAN
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="inputBaru">
+                        <a href="data_baru.html">
+                            <div class="buttonContainer">
+                                MASUKKAN <br>DATA BARU
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+   
+   
+    <div class="column">
+        <div class="cards" style="display: inline-flex;">
+            <a href="AnggaranPendidikan.html">
+                <div class="card">
+                    <div class="container">
+                        <img src="assets/images/News_1.png" alt="">
+                        <div class="category">
+                            <h3 class="title">Anggaran Pendidikan</h3>
+                        </div>
+                </div>
+            </div></a>
+            <a href="AnggaranPendidikan.html">
+                <div class="card">
+                    <div class="container">
+                        <img src="assets/images/News_1.png" alt="">
+                        <div class="category">
+                            <h3 class="title">Anggaran Pendidikan</h3>
+                        </div>
+                </div>
+            </div></a>
+            <a href="AnggaranPendidikan.html">
+                <div class="card">
+                    <div class="container">
+                        <img src="assets/images/News_1.png" alt="">
+                        <div class="category">
+                            <h3 class="title">Anggaran Pendidikan</h3>
+                        </div>
+                </div>
+            </div></a>
+            
+        </div>
+    </div>
+     <div class="topnews">
         <h1>Top News</h1>
-        <hr>
     </div>
-    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-        <div class="gallery-cell fill"><img src="./assets/images/News_1.png" alt="Could be portrait or landscape"/></div>
-        <div class="gallery-cell fill"><img src="./assets/images/News_2.png" alt="Could be portrait or landscape"/></div>
-        <div class="gallery-cell fill"><img src="./assets/images/News_3.png" alt="Could be portrait or landscape"/></div>
+    <div class="slider">
+         <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+             <a href="AnggaranPendidikan.html"><div class="gallery-cell fill"><img src="./assets/images/News_1.png" alt="Could be portrait or landscape"/></div></a>
+             <a href="AnggaranPendidikan.html"><div class="gallery-cell fill"><img src="./assets/images/News_2.png" alt="Could be portrait or landscape"/></div></a>
+             <a href="AnggaranPendidikan.html"><div class="gallery-cell fill"><img src="./assets/images/News_3.png" alt="Could be portrait or landscape"/></div></a>
     </div>
+    </div>
+   
     <footer>
         <div class="logo">BT.co</div>
         <ul class="media1">
@@ -46,5 +130,15 @@
         </ul>
     </footer>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script>
+        function showHamburger(){
+            var x=document.getElementById('menu-navbar');
+            if(x.style.display=='none'){
+                x.style.display='block ';
+            }else{
+                x.style.display='none';
+            }
+        }
+    </script>
 </body>
 </html>

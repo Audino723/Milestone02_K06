@@ -13,23 +13,6 @@ body {
     color: inherit;
   }
   
-  header {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 120px;
-    position: sticky;
-    top: 0;
-    font-weight: bold;
-  }
-  header ul li {
-    list-style-type: none;
-    display: inline-block;
-    font-size: 25px;
-    padding: 20px 50px;
-    margin-right: 70px;
-  }
   
   .logo {
     font-size: 50px;
@@ -47,6 +30,7 @@ body {
   .judul {
     text-align: center;
     padding: 2em;
+    margin-top: 50px;
   }
   
   .section {
