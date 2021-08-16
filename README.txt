@@ -15,5 +15,7 @@ PENJELASAN PENGGUNAAN WEB
 index.html merupakan homepage dari web yang kami buat
 daftar.html adalah register akun baru untuk masuk ke website
 data_baru.html adalah tempat memasukkan data baru tentang keuangan 
-masuk.html adalah tempat user log in dengan akun yang telah mereka buat
-slider.html
+masuk.html adalah tempat user log in dengan akun yang telah mereka buat atau membuat akun baru
+slider.html adalah sebuah slideshow pada website yang berisi berita-berita
+tentangKami.html berisi informasi tentang penjelasan BT.co
+AnggaranPendidikan.html berisi tentang informasi anggaran pendidikan dari tahun ke tahun
